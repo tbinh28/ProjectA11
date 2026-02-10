@@ -1,48 +1,52 @@
-/* --- RESET & DIỆT MÀU XANH --- */
+/* --- RESET & COLOR --- */
 * { margin: 0; padding: 0; box-sizing: border-box; }
-a { text-decoration: none; color: inherit; } 
-body { font-family: 'Segoe UI', Arial, sans-serif; background: #fff; color: #1a1a1a; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Segoe UI', Arial, sans-serif; background: #fff; color: #1a1a1a; line-height: 1.6; }
+
+/* DIỆT MÀU XANH LINK */
+a { text-decoration: none; color: inherit !important; }
+
 .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
 
-/* Header */
-header { text-align: center; padding: 50px 0; border-bottom: 5px solid #8b0000; background: #fcfcfc; }
-.main-title { color: #8b0000; font-size: 2rem; font-weight: 900; margin-top: 10px; }
-.product-label { font-size: 0.8rem; letter-spacing: 2px; color: #666; font-weight: bold; }
-
-/* Nav */
+/* Header & Nav */
+header { text-align: center; padding: 50px 0; border-bottom: 5px solid #8b0000; background: #fdfdfd; }
+.main-title { color: #8b0000; font-size: 1.8rem; text-transform: uppercase; font-weight: 900; }
 nav { background: #8b0000; position: sticky; top: 0; z-index: 1000; }
 nav ul { list-style: none; display: flex; justify-content: center; }
-nav ul li a { color: #fff !important; padding: 15px 20px; display: block; font-weight: 600; font-size: 0.9rem; }
+nav ul li a { color: #fff !important; padding: 15px 20px; display: block; font-weight: 600; font-size: 0.8rem; }
 
-/* BỐ CỤC BÁO CÁO (CHỮ TRÁI - ẢNH PHẢI) */
+/* BỐ CỤC CHỮ TRÁI - ẢNH PHẢI */
 .report-section { padding: 60px 0; }
-.section-content { display: flex; gap: 50px; align-items: flex-start; }
-.section-content.reverse { flex-direction: row-reverse; } /* Đảo bên */
+.section-content { display: flex; gap: 40px; align-items: flex-start; }
+.section-content.reverse { flex-direction: row-reverse; }
+.sub-content { margin-top: 30px; }
 
-.text-side { flex: 1.2; }
+.text-side { flex: 1.4; }
 .img-side { flex: 1; }
 .img-side img { width: 100%; height: auto; border: 1px solid #eee; }
 
-.tag-red { background: #8b0000; color: #fff; padding: 4px 10px; font-size: 0.7rem; font-weight: bold; margin-bottom: 15px; display: inline-block; }
-.text-side h2 { font-size: 1.8rem; margin-bottom: 20px; color: #1a1a1a; }
-.text-side p { margin-bottom: 15px; text-align: justify; color: #444; }
+.tag-red { background: #8b0000; color: #fff; padding: 4px 10px; font-size: 0.7rem; font-weight: bold; margin-bottom: 15px; display: inline-block; text-transform: uppercase; }
+.text-side h3 { color: #8b0000; margin-bottom: 15px; text-transform: uppercase; font-size: 1.1rem; }
+.text-side p { margin-bottom: 12px; text-align: justify; }
 
-/* Vạch ngăn mỏng */
 .divider-thin { border: none; height: 1px; background: #eee; }
 
-/* Slide Ảnh & Video */
-.carousel-container { position: relative; width: 100%; height: 350px; overflow: hidden; background: #000; }
+/* Slide & Media */
+.carousel-container { position: relative; width: 100%; height: 320px; background: #000; overflow: hidden; }
 .carousel-slide img { position: absolute; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: 0.5s; }
 .carousel-slide img.active { opacity: 1; z-index: 2; }
 .carousel-btn { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: #fff; border: none; padding: 10px; cursor: pointer; z-index: 10; }
 #nextBtn { right: 0; } #prevBtn { left: 0; }
 
-.video-grid { display: flex; gap: 20px; margin-top: 30px; }
-.video-item { flex: 1; aspect-ratio: 16/9; }
-.video-item iframe { width: 100%; height: 100%; }
+.media-flex { display: flex; gap: 20px; margin-top: 40px; }
+.media-card { flex: 1; aspect-ratio: 16/9; }
+.video-wrapper { position: relative; height: 100%; width: 100%; padding-bottom: 56.25%; }
+.video-wrapper iframe { position: absolute; width: 100%; height: 100%; }
 
-.full-width-img { width: 100%; margin-top: 20px; }
+/* Styling phụ */
+.info-box-styled { background: #f9f9f9; padding: 20px; border-left: 5px solid #8b0000; }
+.final-quote { font-style: italic; font-weight: bold; color: #8b0000; text-align: center; border: 2px dashed #8b0000; padding: 20px; }
 
-/* Footer */
-footer { background: #1a1a1a; color: #ccc; padding: 40px 0; margin-top: 50px; }
+footer { background: #1a1a1a; color: #ccc; padding: 40px 0; font-size: 0.85rem; }
 .footer-container { display: flex; justify-content: space-around; max-width: 1100px; margin: 0 auto; }
+#visit-count { color: #ff4d4d; font-weight: bold; }
