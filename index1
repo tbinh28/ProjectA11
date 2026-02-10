@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo cáo Dự án Tây Tiến - Tổ 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <header>
+            <p class="product-label">BÁO CÁO KẾT QUẢ BÀI TẬP DỰ ÁN</p>
+            <h1 class="main-title">“THEO DẤU CHÂN NHỮNG NGƯỜI LÍNH TÂY TIẾN”</h1>
+            <p class="sub-header">Nhóm thực hiện: Tổ 2 - 12A11</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#info">I. Thông tin chung</a></li>
+                <li class="dropdown">
+                    <a href="#result" class="dropbtn">II. Kết quả ▾</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#result-1">1. Tranh ảnh, video</a></li>
+                        <li><a href="#result-2">2. Bối cảnh & Hoạt động</a></li>
+                        <li><a href="#result-3">3. Phê bình & Sơ đồ</a></li>
+                        <li><a href="#result-4">4. Phương án trưng bày</a></li>
+                    </ul>
+                </li>
+                <li><a href="#usage">III. Sử dụng & Lưu trữ</a></li>
+                <li><a href="#experience">IV. Kinh nghiệm</a></li>
+                <li><a href="#evaluation">V. Tự đánh giá</a></li>
+            </ul>
+        </nav>
+
+        <main class="container">
+            <section id="info" class="report-section">
+                <div class="section-content">
+                    <div class="text-side">
+                        <span class="tag-red">I. THÔNG TIN CHUNG VỀ BÀI TẬP DỰ ÁN</span>
+                        <p><strong>Yêu cầu của bài tập dự án:</strong> Sưu tầm tài liệu hỗ trợ việc học tập và tìm hiểu về bài thơ “Tây Tiến” (Quang Dũng).</p>
+                        <p><strong>Thời gian thực hiện:</strong> 1 tuần (từ 03/02/2026 đến 10/02/2026).</p>
+                        <p><strong>Xác định các công việc cụ thể:</strong></p>
+                        <ul class="task-list">
+                            <li>Tìm hiểu thông tin về bối cảnh lịch sử ra đời và hoạt động của quân đoàn Tây Tiến.</li>
+                            <li>Sưu tầm tranh, ảnh, hiện vật về các hoạt động về địa bàn hoạt động của quân đoàn Tây Tiến.</li>
+                            <li>Sưu tầm video, phim tài liệu về đoàn binh Tây Tiến.</li>
+                            <li>Tìm hiểu và sơ đồ hóa kiến thức về bài thơ “Tây Tiến” (Quang Dũng).</li>
+                            <li>Sưu tầm tài liệu phê bình về bài thơ “Tây Tiến” (Quang Dũng).</li>
+                            <li>Tổ chức, sắp xếp các tài liệu sưu tầm thành một sản phẩm hoàn chỉnh.</li>
+                            <li>Tổ chức triển lãm sản phẩm và thuyết minh về sản phẩm đã thực hiện.</li>
+                        </ul>
+                        <p><strong>Phân chia công việc:</strong> Các thành viên trong nhóm đã được giao những công việc phù hợp với sở trường của bản thân và tham gia với những mức độ khác nhau vào các công việc khác nhau.</p>
+                    </div>
+                    <div class="img-side">
+                        <div class="member-table-placeholder">
+                            <img src="btv.png" alt="Bảng phân chia công việc" style="width: 100%; border: 2px solid #eee;">
+                            <p class="img-caption">Bảng: Phân chia nhiệm vụ và đánh giá thành viên Tổ 2.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="divider-thin">
+
+            <section id="result" class="report-section">
+                <span class="tag-red">II. KẾT QUẢ THỰC HIỆN BÀI TẬP DỰ ÁN</span>
+
+                <div id="result-1" class="section-content sub-content">
+                    <div class="text-side">
+                        <h3>1. Sưu tầm tranh, ảnh, video về người lính Tây Tiến</h3>
+                        <p>Đã sưu tầm được một khối lượng tranh ảnh, video phong phú về chặng đường hoạt động của người lính Tây Tiến, vũ khí chiến đấu, nơi đóng quân của người lính Tây Tiến từ các nguồn tài liệu lịch sử và văn học.</p>
+                        <div class="method-box">
+                            <p><strong>Cách sưu tầm:</strong> Tải tranh, ảnh trên báo, internet.</p>
+                            <p><strong>Cách xử lý tài liệu:</strong> Ghi rõ nội dung và nguồn tranh, ảnh, video clip; sắp xếp theo trình tự hợp lí; nhấn mạnh những hoạt động, sự kiện nổi bật; trình bày tranh ảnh lên báo cáo một cách khoa học.</p>
+                        </div>
+                    </div>
+                    <div class="img-side">
+                        <img src="6.JPG (google).jpg" alt="Mo ta anh" style="width: 100%; border: 1px solid #eee;">
+                    </div>
+                </div>
+
+                <hr class="divider-thin">
+
+                <div id="result-2" class="section-content sub-content">
+                    <div class="text-side">
+                        <h3>2. Thông tin về bối cảnh lịch sử và hoạt động</h3>
+                        <p>Đã sưu tầm, tổng hợp và chọn lọc những thông tin về bối cảnh lịch sử, hoàn cảnh ra đời và hoạt động của đoàn binh Tây Tiến, mọi thông tin được sắp xếp theo một trình tự hợp lí, có ghi rõ nguồn thông tin tham khảo.</p>
+                        <div class="report-detail">
+                            <p><strong>Bối cảnh lịch sử ra đời:</strong></p>
+                            <ul>
+                                <li>Tình hình chiến sự: Sau 1 năm toàn quốc kháng chiến, Pháp đẩy mạnh tấn công hòng chiếm vùng núi miền Tây chiến lược, bao vây, chia cắt căn cứ địa cách mạng.</li>
+                                <li>Nhiệm vụ: Bộ Tổng chỉ huy quyết định thành lập mặt trận Tây Tiến (đoàn quân Tây Tiến) để phối hợp với bộ đội Lào, chặn đứng âm mưu của địch, bảo vệ biên giới Việt - Lào.</li>
+                                <li>Thành phần: Phần lớn là thanh niên, trí thức, học sinh, sinh viên Hà Nội xếp bút nghiên theo việc binh.</li>
+                            </ul>
+                            <p><strong>Hoạt động chính:</strong></p>
+                            <ul>
+                                <li>Địa bàn hoạt động: Sơn La, Lai Châu, Hòa Bình, miền tây Thanh Hóa (Việt Nam), Sầm Nưa (Lào) với địa hình rừng núi hiểm trở.</li>
+                                <li>Hoàn cảnh chiến đấu: gian khổ, thiếu thốn vật chất và bệnh sốt rét rừng hoành hành.</li>
+                                <li>Phương thức: chiến đấu, làm nhiệm vụ tuyên truyền, xây dựng cơ sở cách mạng, củng cố tình đoàn kết Việt - Lào.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="img-side">
+                        <img src="4.JPG (google).webp" alt="Mo ta anh" style="width: 100%; border: 1px solid #eee;">
+                    </div>
+                </div>
+
+                <hr class="divider-thin">
+
+                <div id="result-3" class="section-content sub-content">
+                    <div class="text-side">
+                        <h3>3. Tài liệu phê bình & Sơ đồ tư duy</h3>
+                        <p>Đã sưu tầm được những tài liệu phê bình về bài thơ Tây Tiến từ các tác giả khác. Đã tìm hiểu thông tin từ cơ bản đến chi tiết về tác giả Quang Dũng và tác phẩm “Tây Tiến” và tiến hành xây dựng sơ đồ tư duy bằng trình duyệt web.</p>
+                        <div class="method-box">
+                            <p><strong>Cách sưu tầm:</strong> Tra cứu, tìm kiếm tài liệu phê bình trên các trang báo, trang uy tín chuyên nghiên cứu văn chương; sử dụng trang web hỗ trợ tạo sơ đồ tư duy trực tuyến.</p>
+                            <p><strong>Cách xử lý tài liệu:</strong> Scan thành hình ảnh, đánh máy lại hoặc trích dẫn đường link bài viết phê bình; lập danh mục những bài nghiên cứu, phê bình; ghi rõ tác giả của những nguồn tài liệu.</p>
+                        </div>
+                        <div class="essay-links-container">
+                            <p style="margin-bottom: 10px; font-weight: bold;">Tuyển tập bài viết phê bình, nghiên cứu:</p>
+                            <a href="https://baovannghe.vn/ban-them-ve-bai-tho-tay-tien-cua-quang-dung-18112.html" target="_blank" class="essay-btn">📄 Bàn thêm về bài thơ "Tây Tiến" (Đặng Tương Như)</a>
+                            <a href="http://lainguyenan.free.fr/TungDoanDuongVan/QuangDung.html" target="_blank" class="essay-btn">📄 Nói thêm về tác giả Quang Dũng và bài thơ "Tây Tiến" (Lại Nguyên Ân)</a>
+                            <a href="https://vanvn.vn/tay-tien-mien-cam-xuc-xanh-xua-tieu-luan-cua-le-va/" target="_blank" class="essay-btn">📄 Tiểu luận Lê Va: Tây Tiến - Miền cảm xúc xanh xưa</a>
+                        </div>
+                    </div>
+                    <div class="img-side">
+                        <div class="mindmap-wrapper">
+                            <img src="s.png" alt="Sơ đồ tư duy" class="mindmap-preview">
+                            <a href="https://mapify.so/share-link/JRvLD5QDpl" target="_blank" class="full-view-btn">🧠 Xem Sơ đồ tư duy chi tiết (Full)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="divider-thin">
+
+                <div id="result-4" class="section-content sub-content">
+                    <div class="text-side">
+                        <h3>4. Phương án trưng bày sản phẩm</h3>
+                        <p>Đã lên các phương án trưng bày sản phẩm của bài tập dự án như một chỉnh thể, đảm bảo tính thống nhất, mạch lạc, hấp dẫn.</p>
+                        <div class="method-box">
+                            <p><strong>Cách trưng bày:</strong> Trình bày sản phẩm trên trình duyệt web, ứng dụng tin học, công nghệ vào trình bày bài báo cáo; phân chia bố cục báo cáo một cách có trình tự; nhằm tăng sức hấp dẫn, gây sự chú ý của bạn đọc đối với bài báo cáo.</p>
+                        </div>
+                    </div>
+                    <div class="img-side">
+                        <div class="video-wrapper">
+                            <iframe src="https://www.youtube.com/embed/12D6NYKIFGQ" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="divider-thin">
+
+            <section id="usage" class="report-section">
+                <div class="section-content">
+                    <div class="text-side">
+                        <span class="tag-red">III. VẤN ĐỀ SỬ DỤNG, LƯU TRỮ KẾT QUẢ BÀI TẬP DỰ ÁN</span>
+                        <p>Sản phẩm có ý nghĩa thiết thực trong hoạt động giáo dục: Phục vụ trực tiếp thời điểm học bài thơ Tây Tiến, hỗ trợ các hoạt động nghiên cứu và tìm hiểu văn học trong nhà trường.</p>
+                        <p>Kết quả có thể lưu trữ tại thư viện, trang web của Tổ 2 hoặc đăng tải lên trang báo của nhà trường để học sinh toàn trường cùng tham khảo.</p>
+                    </div>
+                    <div class="img-side">
+                        <div class="info-box-styled">
+                            <p>Đối tượng sử dụng: Cá nhân hoặc tập thể.</p>
+                            <p>Hình thức: Triển lãm, mượn tài liệu, truy cập trực tuyến.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="divider-thin">
+
+            <section id="experience" class="report-section">
+                <div class="section-content">
+                    <div class="text-side">
+                        <span class="tag-red">IV. MỘT SỐ KINH NGHIỆM VỀ THỰC HIỆN BÀI TẬP DỰ ÁN</span>
+                        <p><strong>Kinh nghiệm:</strong> Cần phân công công việc hợp lý cho từng thành viên; các thành viên cần tích cực trao đổi, phát huy khả năng sáng tạo và linh hoạt để đạt kết quả bất ngờ trong thời gian ngắn.</p>
+                    </div>
+                    <div class="img-side">
+                        <p class="final-quote">"Phát huy khả năng sáng tạo và làm việc nhóm hiệu quả."</p>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="divider-thin">
+
+            <section id="evaluation" class="report-section">
+                <div class="section-content">
+                    <div class="text-side">
+                        <span class="tag-red">V. TỰ ĐÁNH GIÁ VỀ KẾT QUẢ BÀI TẬP DỰ ÁN</span>
+                        <p><strong>Tự đánh giá:</strong> Bài tập dự án thực hiện thành công, đúng kế hoạch. Sản phẩm thể hiện tính độc đáo khi lựa chọn trình bày sản phẩm trên trình duyệt web, đồng thời kết quả đạt được phù hợp với điều kiện và phạm vi tra cứu của nhóm thực hiện.</p>
+                    </div>
+                    <div class="img-side">
+                        <p class="final-quote">"Sản phẩm đạt yêu cầu đề ra, đảm bảo tính thẩm mỹ và giá trị học tập cao."</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-column">
+                    <p>📍 Phòng C3.02 - 12A11 - THPT Thạch Thất</p>
+                    <p>&copy; 2026 Dự án Văn học Tổ 2.</p>
+                </div>
+                <div class="footer-column">
+                    <p>Số lượt truy cập: <span id="visit-count">0</span></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
