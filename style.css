@@ -86,3 +86,86 @@ footer { background: #1a1a1a; color: #ccc; padding: 40px 0; font-size: 0.85rem; 
 .text-side a {
     text-decoration: none;
 }
+
+/* Style riêng cho danh sách công việc ở Mục I */
+.task-list {
+    margin: 15px 0 20px 20px;
+    list-style-type: disc;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.task-list li {
+    margin-bottom: 8px;
+    text-align: justify;
+}
+
+/* Khung cho cái ảnh cap màn hình bảng thành viên */
+.member-table-placeholder {
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    border-radius: 4px;
+}
+
+/* --- STYLE CHO 3 NÚT BÊN TRÁI --- */
+.essay-links-container {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.essay-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background: #fff;
+    border: 1.5px solid #8b0000;
+    border-radius: 5px;
+    color: #1a1a1a !important; /* Diệt bôi xanh */
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.essay-btn:hover {
+    background: #fdf2f2;
+    transform: translateX(8px);
+    border-color: #a00000;
+}
+
+.essay-btn .icon { margin-right: 12px; }
+
+/* --- STYLE CHO NÚT DƯỚI ẢNH BÊN PHẢI --- */
+.mindmap-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.mindmap-preview {
+    width: 100%;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.full-view-btn {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    background: #8b0000;
+    color: #fff !important;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.full-view-btn:hover {
+    background: #a00000;
+    box-shadow: 0 4px 12px rgba(139, 0, 0, 0.3);
+}
